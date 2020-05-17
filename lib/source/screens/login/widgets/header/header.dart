@@ -12,8 +12,9 @@ class Header extends StatelessWidget {
           child: Text(
             "Log In",
             style: TextStyle(
-                fontSize: 30.0,
-                letterSpacing: 1.0
+                fontSize: 40.0,
+                letterSpacing: 1.0,
+                color: Colors.blueGrey[500]
             ),
           ),
         ),
