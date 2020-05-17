@@ -1,11 +1,14 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
 import "screens/login/login.dart";
+import "data/provider.dart";
 
 class App extends StatelessWidget {
   Widget build(BuildContext ctx) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: LogIn()
+    return Provider(
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: LogIn()
+      )
     );
   }
 }
